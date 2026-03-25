@@ -37,12 +37,4 @@ exports.handler = async function(event) {
     };
   }
 };
-```
-
-**Step 4 —** Scroll down, click the green **"Commit changes"** button
-
-**Step 5 —** You'll be back at the repo. Click **"Add file" → "Create new file"** again. This time name it:
-```
-netlify.toml
-[build]
-  functions = "netlify/functions"
+`
